@@ -1,13 +1,102 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #192428;
+ 
 }
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 550px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px #4e5e6681 ;
+  
+}
+
+header{
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 7px;
+}
+
+header img{
+  width: 32px;
+  height: 26px;
+}
+
+header h1{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: auto;
+}
+header p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 36px;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  display: block;
+  width: 230px;
+  height: 35px;
+  border:1px solid #D5D4D8;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  text-indent: 5px;
+}
+
+
+
+button{
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  color: white;  
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  
+
+} 
