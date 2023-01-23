@@ -60,10 +60,9 @@ header p{
 }
 
 
-form{
+.form{
   display: flex;
   flex-direction: column;
-  margin: 36px;
 }
 
 .inputs{
@@ -100,3 +99,17 @@ button{
   
 
 } 
+
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  gap:36px ;
+}
+
+
+main img{
+  width: 477px;
+  height: 268px;
+  border-radius: 5px;
+}
